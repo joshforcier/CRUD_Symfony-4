@@ -28,7 +28,7 @@ class ArticleController extends Controller {
 
     /**
     * @Route("/article/new", name="new_article")
-    * Method({"GET", "POST"})
+    * @Method({"GET", "POST"})
     */
     public function new(Request $request)
     {
@@ -57,7 +57,7 @@ class ArticleController extends Controller {
 
     /**
     * @Route("/article/edit/{id}", name="edit_article")
-    * Method({"GET", "POST"})
+    * @Method({"GET", "POST"})
     */
     public function edit(Request $request, $id)
     {
